@@ -1,0 +1,756 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #fff;
+  margin-top: 15px;
+}
+
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.menu ul li a:hover {
+  color: #ff7b00;
+}
+
+
+.menu img {
+  vertical-align: middle;
+}
+
+
+.navbutton {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbutton .free {
+  padding: 20px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 500;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.navbutton .lets {
+  padding: 20px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 500;
+  position: relative;
+  overflow: hidden;
+}
+
+.navbutton button span {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.navbutton button:hover span {
+  transform: translateY(-5px);
+}
+
+
+.navbutton  .free {
+  background-color: #e7b083;
+  color: black;
+}
+
+.navbutton  .lets {
+  background-color: rgb(46, 63, 46);
+  color: white;
+}
+
+.navbutton button .lets:hover {
+  background-color: #000;
+}
+
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .menu ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .menu ul li a {
+    text-align: center;
+  }
+
+  .navbutton {
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 8px;
+  }
+
+  .navbutton button {
+    width: 80%;
+    padding: 10px 0;
+    font-size:14px;
+}
+}
+  
+
+.hero{
+  background-color: rgb(57, 114, 95);
+text-align: center;
+  padding: 10%;
+
+}
+
+
+.solutions{
+   font-size: 4rem;
+  font-weight: bolder;
+  color: white;
+
+}
+
+.solutions span{
+  color: #da9f6f;
+   border-bottom: 14px solid  rgba(150, 147, 147, 0.158) ;
+
+  
+
+}
+
+.drive{
+  color: whitesmoke;
+  font-size: 20px;
+  padding-top: 10px;
+  line-height: 2rem;
+}
+
+.home span{
+    color: whitesmoke;
+
+}
+
+.home{
+    color: #fff;
+    padding-top: 3%;
+}
+
+
+
+.card{
+  display: flex;
+    background-color: rgba(243, 234, 239, 0.233);
+    padding: 10%;
+  
+}
+
+
+.right img{
+  width: 80%;
+  padding-left: 5%;
+  border-radius: 8px;
+}
+
+.left{
+  padding: 2.5%;
+}
+
+
+
+
+.form-container {
+    width: 350px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+.check-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    color: white;
+}
+
+.submit-btn {
+    padding: 12px;
+    background-color: #da9f6f;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.let h2{
+  color: white;
+}
+
+.sol span{
+  color: #da9f6f;
+}
+
+.prag{
+    margin-top: 10px;
+    color: #978e8e;
+    font-size: 16px;
+}
+
+
+
+.cards{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-left: 10rem;
+  margin-top: 10%;
+
+}
+
+
+.box3{
+  background-color: rgb(255, 255, 255);
+  padding: 40px 30px ;
+  border-radius: 5px;
+  
+}
+
+
+.icon1{
+ background-color: rgba(231, 218, 225, 0.342);
+ font-size: 23px ;
+ border-radius: 10px;
+ width: 55px;
+ height: 55px;
+ align-items: center;
+display: flex;
+justify-content: center;
+margin-bottom: 15px;
+}
+
+
+.icon1:hover{
+  background-color: rgb(57, 114, 95) ;
+}
+
+
+
+
+
+
+h3{
+  font-size: 1.5rem;
+}
+
+
+.box3 p{
+  color: #8b8383;
+  padding-top: 16px;
+  line-height: 1.8rem;
+  font-size: 1.1rem;
+}
+
+
+.down{
+    display: flex;
+    padding: 10%;
+    gap: 10%;
+    background-color: rgba(231, 218, 225, 0.342);
+
+
+}
+
+.or{
+    font-size: 20px;
+    color: rgb(50, 99, 83);
+
+}
+
+
+
+
+
+.solu{
+   font-size: 2.8rem;
+  font-weight: bolder;
+  color: black;
+  margin-top: 5%;
+
+}
+
+.solu span{
+    color: rgb(50, 99, 83);
+   border-bottom: 14px solid  rgba(150, 147, 147, 0.158) ;
+
+  
+
+}
+
+
+
+
+.address{
+    margin-top: 10%;
+    line-height: 2.5rem;
+}
+
+
+
+.but{
+  padding-top: 3%;
+}
+
+
+
+
+.button .free {
+  padding: 20px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 500;
+  position: relative;
+  overflow: hidden;
+  margin-top: 2%;
+  background-color: #da9f6f;
+}
+
+.take{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+.footer {
+    width: 100%;
+    padding: 5%;
+    padding-left: 8%;
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.footer-column {
+    flex: 1;
+    font-weight: 200px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.desc {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    max-width: 220px;
+}
+
+.copy {
+   
+    color: #666;
+}
+
+.footer-column h3 {
+    font-size: 17px;
+    margin-bottom: 18px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+    color: #444;
+    font-size: 14px;
+}
+
+.links {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+/* ===== Global ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  flex-wrap: wrap;
+  z-index: 1000;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.navbutton {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.navbutton .free {
+  background-color: #e7b083;
+  color: black;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.navbutton .lets {
+  background-color: rgb(46, 63, 46);
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* ===== Hero ===== */
+.hero {
+  background-color: rgb(57, 114, 95);
+  text-align: center;
+  padding: 10%;
+  color: white;
+}
+
+.hero .solutions {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.hero .solutions span {
+  color: #da9f6f;
+}
+
+.hero .drive {
+  font-size: 18px;
+  margin-top: 10px;
+  line-height: 1.8rem;
+}
+
+.hero .home span {
+  color: whitesmoke;
+}
+
+/* ===== Contact Card ===== */
+.card {
+  display: flex;
+  gap: 30px;
+  padding: 50px 8%;
+  background-color: rgba(243, 234, 239, 0.233);
+  flex-wrap: wrap;
+}
+
+.left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.right {
+  flex: 1;
+  min-width: 300px;
+}
+
+.right img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+textarea {
+  height: 120px;
+  resize: none;
+}
+
+.submit-btn {
+  padding: 12px;
+  background-color: #da9f6f;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+/* ===== Cards Section ===== */
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 50px 8%;
+  flex-wrap: wrap;
+}
+
+.box3 {
+  background-color: white;
+  padding: 30px 20px;
+  border-radius: 5px;
+  flex: 1;
+  min-width: 220px;
+  text-align: center;
+}
+
+.icon1 {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: rgba(231, 218, 225, 0.342);
+  font-size: 24px;
+  margin: 0 auto 15px;
+}
+
+.icon1:hover {
+  background-color: rgb(57, 114, 95);
+  color: white;
+}
+
+/* ===== Location Section ===== */
+.down {
+  display: flex;
+  gap: 50px;
+  padding: 50px 8%;
+  flex-wrap: wrap;
+  background-color: rgba(231, 218, 225, 0.342);
+}
+
+.down .bidix, .down .midig {
+  flex: 1;
+  min-width: 250px;
+}
+
+.down .midig .solu {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.down .midig .solu span {
+  color: rgb(50, 99, 83);
+}
+
+/* ===== Footer ===== */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 40px 8%;
+  background-color: #f5f5f5;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 180px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px 8%;
+  gap: 10px;
+  text-align: center;
+  font-size: 13px;
+}
+
+/* ===== Buttons Hero ===== */
+.button .free {
+  padding: 15px 20px;
+  background-color: #da9f6f;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 992px) {
+  .card {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 5%;
+  }
+
+  .right img {
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  .cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .down {
+    flex-direction: column;
+    padding: 30px 5%;
+    gap: 30px;
+  }
+
+  .hero .solutions {
+    font-size: 2.5rem;
+  }
+
+  .hero .drive {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .menu ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .navbutton {
+    flex-direction: column;
+    width: 100%;
+    gap: 8px;
+    margin-top: 10px;
+  }
+
+  .hero {
+    padding: 15% 5%;
+  }
+
+  .hero .solutions {
+    font-size: 2rem;
+  }
+
+  .down .midig .solu {
+    font-size: 1.8rem;
+  }
+
+  .cards .box3 {
+    min-width: 100%;
+  }
+}
